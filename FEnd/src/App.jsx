@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {
     // Kết nối socket khi App mount
     socket.on('connect', () => {
-      console.log('🔌 Kết nối Socket.IO thành công:', socket.id)
+      console.log('🔌Chào dũng đại ca. Kết nối Socket.IO thành công:', socket.id)
     })
 
     socket.on('message', (msg) => {

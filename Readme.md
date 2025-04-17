@@ -20,3 +20,7 @@
 cd BEnd  / cd FEnd
 yarn install / yarn
 yarn dev
+
+Một số lưu ý:
+
+Để chạy được trang web cần phải cấu hình lại file env, host, cors .... 
